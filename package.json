@@ -7,6 +7,7 @@
     "starts": "nodemon server-socket.js",
     "starta": "nodemon server-api.js",
     "startan": "node server-api.js",
+    "startselfupdate": "nodemon self-restart-git-pull.js",
     "dev": "concurrently --kill-others \"npm run starts\" \"npm run starta\""
   },
   "author": "aarju patel",
